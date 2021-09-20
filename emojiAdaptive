@@ -1,0 +1,99 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "style": "emphasis",
+            "columns": [                
+                {
+                    "type": "Column",
+                    "spacing":"extraLarge",
+                    "width": "",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "altText": "",
+                            "size":"small",
+                            "url": "https://cdn.shopify.com/s/files/1/1061/1924/products/Smiling_Emoji_with_Smiling_Eyes_large.png?v=1571606035",
+                            "selectAction": {
+                                "type": "Action.Submit",
+                                "data": { "rating": "terrific" },
+                                "title": "terrific"
+                            }
+                        }
+                    ]
+                }, {
+                    "type": "Column",
+                    "spacing":"extraLarge",
+                    "width": "",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "altText": "",
+                            "size":"small",
+                            "url": "https://cdn.shopify.com/s/files/1/1061/1924/products/Slightly_Smiling_Emoji_Icon_34f238ed-d557-4161-b966-779d8f37b1ac_large.png?v=1571606093",
+                            "selectAction": {
+                                "type": "Action.Submit",
+                                "data": { "rating": "good" },
+                                "title": "good"
+                            }
+                        }
+                    ]
+                },{
+                    "type": "Column",
+                    "spacing":"extraLarge",
+                    "width": "",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "altText": "",
+                            "size":"small",
+                            "url": "https://cdn.shopify.com/s/files/1/1061/1924/products/Neutral_Face_Emoji_large.png?v=1571606037",
+                            "selectAction": {
+                                "type": "Action.Submit",
+                                "data": { "rating": "ok" },
+                                "title": "ok"
+                            }
+                        }
+                    ]
+                },{
+                    "type": "Column",
+                    "spacing":"extraLarge",
+                    "width": "",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "altText": "",
+                            "size":"small",
+                            "url": "https://cdn.shopify.com/s/files/1/1061/1924/products/Very_sad_emoji_icon_png_large.png?v=1571606089",
+                            "selectAction": {
+                                "type": "Action.Submit",
+                                "data": { "rating": "bad" },
+                                "title": "bad"
+                            }
+                        }
+                    ]
+                },{
+                    "type": "Column",
+                    "spacing":"extraLarge",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "size":"small",
+                            "altText": "",
+                            "url": "https://cdn.shopify.com/s/files/1/1061/1924/products/Angry_Face_Emoji_Icon_ios10_large.png?v=1571606090",
+                            "selectAction": {
+                                "type": "Action.Submit",
+                                "data": { "rating": "awful" },
+                                "title": "awful"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}
